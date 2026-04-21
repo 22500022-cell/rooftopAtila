@@ -1,0 +1,963 @@
+*{
+    margin: 0;
+box-sizing: border-box;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+
+.nav{
+    display: inline-block;
+    width: 4.5%;
+   
+}
+
+
+header>ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+
+
+}
+
+
+ul li:hover{
+    color:#ad9966;
+}
+
+
+header{
+    padding: 10px 0;
+    font-size: 14px;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+}
+
+
+.nav-logo{
+    width: 20%;
+vertical-align: middle;
+}
+
+
+.nav-logo img {
+    width: 66.81px;
+    height: 79.38px;
+}
+
+
+.nav-link{
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+
+section {
+    position: relative;
+}
+
+
+#sec01{
+    height: 78vh;
+    background-image: url(header-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+
+#roof{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+
+p{
+    color: white;
+    font-size: 72px;
+    letter-spacing: 10.8px;
+    font-weight: 500;
+    font-family: "Playfair", serif;
+   
+}
+
+
+span{
+    text-align: center;
+    color: white;
+   
+}
+
+
+.Kaio{position: fixed;
+    left: 190vh;
+    top: 40.5%;
+
+
+}
+
+
+.Book{
+    position: fixed;
+    top: 48.7%;
+    color: white;
+    font-size: 12.9px;
+    text-decoration: none;
+    background-color: transparent;
+    transform: rotate(90deg);
+    transition: 0.4s;
+}
+
+
+.Book:hover{
+    transform: rotate(0);
+    color: black;
+   
+}
+
+
+hr{
+    margin-bottom: 1em;
+}
+
+
+.seta2{
+    position: fixed;
+    right: 190vh;
+    top: 40.5%;
+   
+}
+
+
+.texto3{
+    position: fixed;
+    top: 48.7%;
+    color: black;
+    font-size: 12.9px;
+    text-decoration: none;
+    background-color: transparent;
+    transform: rotate(90deg);
+    transition: 0.4s;
+
+
+}
+
+
+.texto3:hover{
+    transform: rotate(0);
+    color: black;
+}
+
+
+.SetaQueRola{
+    position: absolute;
+    bottom: 12%;
+    right: 50%;
+    text-align: center;
+    animation: cair 2s linear infinite
+   
+}
+ 
+@keyframes cair {
+    0% {
+      top: 720px;
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    100% {
+
+
+       
+        top: 810px;
+        opacity: 0;
+    }
+  }
+  .ROOF2 p{
+    font-size: 15px;
+    margin: 0px 0px 50px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+    color: #777777;
+    flex: 1;
+    margin-left: 30px;
+    margin-top: 30px;
+    line-height: 2;
+  }
+
+
+  .ROOF2 h1{
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    margin: 0px 0px 20px;
+    letter-spacing: 10px;
+    font-weight: 200;
+    flex: 1;
+    margin-left: 30px;
+  }
+
+
+  .ROOF2 a{
+    font-family: "Roboto", sans-serif;
+    display: inline-block;
+    padding: 8px 30px;
+    background-color: #ad9966;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-left: 30px;
+    height: 5vh;
+    border: 2px solid #ad9966;
+    transition: 0.3s;
+  }
+
+
+  .ROOF2 a:hover{
+    background-color: white;
+    color: #ad9966;
+    border: 2px solid #ad9966;
+}
+   .ROOF2{
+    text-align: left;
+    padding-left: 390px;
+    padding-top: 270px;
+}
+
+
+#menu{
+    width: 650px;
+    height: 1250px;
+    margin: 900px;
+    margin-top: 150px;
+    background-color: #faf5f0;
+    position: relative;
+    bottom: 900px;
+    left: 50px;
+   
+}
+
+
+.preco{
+    white-space: nowrap;
+    color: black;
+}
+
+
+#menu h3{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-style: italic;
+    font-weight: 400;
+    margin: 40px 0;
+    font-size: 21px;
+    margin-top: 150px;
+    padding: 50px;
+   
+}
+
+
+.linha{
+    justify-content: center;
+    padding-bottom: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+.item p{
+    font-size: 15px;
+    color: #777777;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+
+.linha span:first-child::after{
+    content: "................";
+    margin: 0 10px;
+    color:#999;
+}
+  .linha span{
+    color: black;
+}
+
+
+.xuxi{ position: absolute;
+    bottom: 1120px;
+    left: 460px;
+    transition: 0.5s ease;
+    width: 540px;
+    height: 778.38px;
+    background-image: url("g1.jpg");
+    background-position: center;
+    background-size: 100%;
+}
+  .xuxi:hover{
+    background-size: 120%;
+  }
+ 
+  .animacaoSeta:hover{
+    scroll-behavior: smooth;
+  }
+
+
+  .paobranco{
+    background-image: url("g2.jpg");
+    background-position: center;
+    background-size: 100%;
+    width: 445px;
+    height: 545.28px;
+    position: absolute;
+    bottom: 780px;
+    left: 1030px;
+    transition: 0.5s ease;
+  }
+.paobranco:hover{
+    background-size: 120%;
+}
+
+
+.macarron{
+    background-image: url("g3.jpg");
+    background-position: center;
+    background-size: 100%;
+    width: 445px;
+    height: 545.28px;
+    position: absolute;
+    bottom: 549px;
+    left: 556px;
+    transition: 0.5s ease;
+}
+.macarron:hover{
+    background-size: 120%;
+}
+
+
+.Comida{
+    background-image: url("g4.jpg");
+    background-position: center;
+    background-size: 100%;
+    width: 540px;
+    height: 583.78px;
+    position: absolute;
+    bottom: 150px;
+    left: 1030px;
+    transition: 0.5s ease;
+}
+
+
+.Comida:hover{
+    background-size: 120%;
+}
+.Roof3 h1{
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    margin: 0px 0px 20px;
+    letter-spacing: 10px;
+    font-weight: 200;
+    flex: 1;
+    margin-left: 30px;
+    position: absolute;
+    left: 1140px;
+}
+
+
+.Roof3 p{
+    font-size: 15px;
+    margin: 0px 0px 50px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+    color: #777777;
+    flex: 1;
+    margin-left: 30px;
+    margin-top: 30px;
+    line-height: 2;
+    position: absolute;
+    left: 1145px;
+    top: 4290px;
+}
+
+
+.FundoRosa{
+    background-color: #faf5f0;
+    height: 938px;
+    width: 635px;
+    position: absolute;
+    left: 410px;
+    top: 3886px;
+}
+
+
+.form1{
+    position: absolute;
+    left: 460px;
+    top: 4004px;
+    width: 535px;
+    height: 38px;
+    border: 0;
+    background-color: white;
+    text-align: left;
+    padding-left: 10px;
+}
+
+
+.dataFor{
+    position: absolute;
+    left: 460px;
+    top: 4060px;
+    width: 252.38px;
+    height: 38px;
+    text-align: left;
+    border: 0;
+    padding-left: 10px;
+}
+
+
+.calendario{
+    color: black;
+    position: absolute;
+    left:675px;
+    top: 4067px;
+    width: 14.86px;
+    height: 24px;
+}
+
+
+.EventTime{
+    position: absolute;
+    left: 743px;
+    top: 4060px;
+    width: 252.38px;
+    height: 38px;
+    border: 0;
+    padding-left: 10px;
+
+
+}
+.NumberOfguest{
+    position: absolute;
+    left: 460px;
+    top: 4117px;
+    width: 252.38px;
+    height: 38px;
+    border: 0;
+    padding-left: 10px;
+}
+
+
+.Budget1{
+    position: absolute;
+    left: 743px;
+    top: 4117px;
+    width: 252.38px;
+    height: 38px;
+    border: 0;
+    padding-left: 10px;
+}
+
+
+.ContactName1{
+    position: absolute;
+    left: 460px;
+    top: 4179px;
+    width: 535px;
+    height: 38px;
+    border: 0;
+    background-color: white;
+    text-align: left;
+    padding-left: 10px;
+}
+
+
+.Email1{
+    position: absolute;
+    left: 460px;
+    top: 4240px;
+    width: 535px;
+    height: 38px;
+    border: 0;
+    background-color: white;
+    text-align: left;
+    padding-left: 10px;
+}
+
+
+.Phone1{
+    position: absolute;
+    left: 460px;
+    top: 4300px;
+    width: 535px;
+    height: 38px;
+    border: 0;
+    background-color: white;
+    text-align: left;
+    padding-left: 10px;
+}
+
+
+.Mensagem{
+    width: 535px;
+    height: 150px;
+    position: absolute;
+    left: 460px;
+    top: 4360px;
+    background-color: white;
+    text-align: left;
+    padding-left: 10px;
+    border: 0;
+}
+
+
+.botaoFormpiscante a{
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    left: 787px;
+    top: 4520px;
+    display: inline-block;
+    padding: 8px 30px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-left: 30px;
+    height: 5vh;
+    border:none;
+    transition: 0.3s;
+    padding-top: 15px;
+
+
+}
+
+
+.botaoFormpiscante a:hover{
+    background-color: transparent;
+    color: #ad9966;
+    transition: 1s;
+    border: 1px solid #ad9966;
+}
+
+
+.chef{
+    position: absolute;
+    left: 980px;
+    top:4700px;
+}
+
+
+.roof4 h1{
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    margin: 0px 0px 20px;
+    letter-spacing: 10px;
+    font-weight: 200;
+    flex: 1;
+    margin-left: 30px;
+    position: absolute;
+    left: 400px;
+    top: 4900px;
+}
+
+
+.roof4 a{
+    font-size: 15px;
+    margin: 0px 0px 50px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+    color: #777777;
+    flex: 1;
+    margin-left: 30px;
+    margin-top: 30px;
+    line-height: 2;
+    position: absolute;
+    left: 400px;
+    top: 5100px;
+}
+
+
+.frangoComBatata{
+    position: absolute;
+    top: 5640px;
+    left: 410px;
+}
+
+
+.QuadroBranco{
+   background-color: #ffffffe6;
+   height: 163px;
+   width: 513px;
+   position: absolute;
+   top: 5790px;
+   left: 700px;
+}
+
+
+.TEXTO6 p{
+   color:black;
+    font-size: 21px;
+    letter-spacing: 1.8px;
+    font-weight: 500;
+    font-family: "Playfair", serif;
+    position: absolute;
+    top: 5850px;
+    left: 950px;
+    transform: translate(-50%,-50%);
+    font-style: italic
+}
+
+
+.LinhaBranca{
+    height: 0.2px;
+    width:122px;
+    background-color: #777777;
+    position: absolute;
+    top: 5870px;
+    left: 889px;
+}
+
+
+.Galinha{
+    position: absolute;
+    top: 5900px;
+    left: 820px;
+    font-size: 15px;
+    font-family:"Roboto", sans-serif;
+    color: #777777;
+    font-style: italic;
+}
+
+.SetaForm{
+    position: absolute;
+    top: 4118px;
+    left: 960px;
+    color: #777777;
+}
+
+.Setafor2{
+    position: absolute;
+    top: 4115px;
+    left: 675px;
+    color: #777777;
+}
+
+footer {
+      background-color: #1a2235;
+      color: #a0aab8;
+      padding-top: 60px;
+      width: 100%;
+      position: absolute;
+      top: 6950px;
+    }
+ 
+    .footer-container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 40px 48px;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 32px;
+    }
+ 
+    .footer-col h4 {
+      color: #ffffff;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+ 
+    .footer-col ul {
+      list-style: none;
+    }
+ 
+    .footer-col ul li {
+      margin-bottom: 10px;
+    }
+ 
+    .footer-col ul li a {
+      color: #a0aab8;
+      text-decoration: none;
+      font-size: 13px;
+      transition: color 0.2s;
+    }
+ 
+    .footer-col ul li a:hover {
+      color: #ffffff;
+    }
+ 
+    /* Newsletter */
+    .newsletter p {
+      font-size: 13px;
+      margin-bottom: 14px;
+      color: #a0aab8;
+    }
+ 
+    .newsletter-form {
+      display: flex;
+    }
+ 
+    .newsletter-form input[type="email"] {
+      flex: 1;
+      padding: 10px 14px;
+      background-color: #243049;
+      border: none;
+      color: #cccccc;
+      font-size: 13px;
+      outline: none;
+    }
+ 
+    .newsletter-form input[type="email"]::placeholder {
+      color: #6a7a90;
+    }
+ 
+    .newsletter-form button {
+      background-color: #b8a05a;
+      border: none;
+      padding: 10px 14px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background-color 0.2s;
+    }
+ 
+    .newsletter-form button:hover {
+      background-color: #a08a45;
+    }
+ 
+    .newsletter-form button svg {
+      width: 16px;
+      height: 16px;
+      fill: #ffffff;
+    }
+ 
+    /* Footer Bottom */
+    .footer-bottom-wrapper {
+      border-top: 1px solid #243049;
+    }
+ 
+    .footer-bottom {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+ 
+    .footer-bottom p {
+      font-size: 12px;
+      color: #6a7a90;
+    }
+ 
+    .footer-bottom a {
+      color: #b8a05a;
+      text-decoration: none;
+    }
+ 
+    .footer-bottom a:hover {
+      text-decoration: underline;
+    }
+ 
+    .social-icons {
+      display: flex;
+      gap: 8px;
+    }
+ 
+    .social-icons a {
+      width: 30px;
+      height: 30px;
+      border: 1px solid #2e3f58;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #a0aab8;
+      font-size: 11px;
+      text-decoration: none;
+      transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+    }
+ 
+    .social-icons a:hover {
+      background-color: #b8a05a;
+      border-color: #b8a05a;
+      color: #ffffff;
+    }
+ 
+    /* Responsivo */
+    @media (max-width: 900px) {
+      .footer-container {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+ 
+    @media (max-width: 600px) {
+      .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 20px 40px;
+      }
+ 
+      .footer-bottom {
+        flex-direction: column;
+        gap: 16px;
+        text-align: center;
+        padding: 20px;
+      }
+    }
+
+    .roof5 h1{
+ font-family: "Playfair Display", serif;
+    font-size: 48px;
+    margin: 0px 0px 20px;
+    letter-spacing: 10px;
+    font-weight: 200;
+    flex: 1;
+    margin-left: 30px;
+    position: absolute;
+    left: 1140px;
+    top: 6240px;
+    }
+
+    .roof5 p{
+        font-size: 15px;
+    margin: 0px 0px 50px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+    color: #777777;
+    flex: 1;
+    margin-left: 30px;
+    margin-top: 30px;
+    line-height: 2;
+    position: absolute;
+    left: 1145px;
+    top: 6420px;
+    }
+
+    .roof5 h3{
+        font-size: 15px;
+    margin: 0px 0px 50px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+    color: #777777;
+    flex: 1;
+    margin-left: 30px;
+    margin-top: 30px;
+    line-height: 2;
+    position: absolute;
+    left: 1145px;
+    top: 6455px;
+    }
+
+    .roof5 a{
+        font-size: 15px;
+    margin: 0px 0px 50px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+    color: #777777;
+    flex: 1;
+    margin-left: 30px;
+    margin-top: 30px;
+    line-height: 2;
+    position: absolute;
+    left: 1145px;
+    top: 6515px;
+    }
+
+    .roof5 h2{
+        font-size: 15px;
+    margin: 0px 0px 50px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+    color: #777777;
+    flex: 1;
+    margin-left: 30px;
+    margin-top: 30px;
+    line-height: 2;
+    position: absolute;
+    left: 1145px;
+    top: 6655px;
+    }
+
+    .Fundocinza{
+        width: 570px;
+        height: 650px;
+        background-color: #777777;
+        opacity: 35%;
+        position: absolute;
+        top: 6200px;
+        left:500px
+    }
+
+    .texto7 p{
+        font-size: 18px;
+    margin: 0px 0px 50px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+    font-style: italic;
+    color: rgb(12, 12, 12);
+    flex: 1;
+    margin-left: 30px;
+    margin-top: 30px;
+    line-height: 2;
+    position: absolute;
+    left: 660px;
+    top: 6420px;
+    }
+
+    .texto7 h2{
+        font-size: 15px;
+    margin: 0px 0px 50px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+    font-style: italic;
+    color: rgb(12, 12, 12);
+    flex: 1;
+    margin-left: 30px;
+    margin-top: 30px;
+    line-height: 2;
+    position: absolute;
+    left: 550px;
+    top: 6490px;
+    }
+
+    .error{
+        position: absolute;
+    left: 760px;
+    top: 6370px;
+    }
+
+    .setaDireita{
+        position: absolute;
+        top: 5850px;
+        left: 300px;
+    }
+
+    .setaEsquerda{
+        position: absolute;
+        top: 5850px;
+        left: 1600px;
+    }
